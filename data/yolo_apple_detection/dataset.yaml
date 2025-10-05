@@ -1,0 +1,5 @@
+names:
+  0: apple
+path: /Users/Nandy/Desktop/final project/data/yolo_apple_detection
+train: images/train
+val: images/val

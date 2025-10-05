@@ -1,0 +1,12 @@
+{
+  "apple_detector.pt": {
+    "save_time": "2025-10-05T00:28:15.917885",
+    "file_size": 12942674,
+    "status": "active",
+    "model_type": "YOLOv8_pretrained_coco",
+    "note": "Pre-trained COCO model - can detect apples as class 47",
+    "classes": "COCO 80 classes including apple",
+    "apple_class_id": 47,
+    "confidence_threshold": 0.5
+  }
+}
