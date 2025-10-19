@@ -8,7 +8,7 @@ A professional, modular, and highly accurate Apple Analysis System built for fin
 
 This system analyzes Indian apple varieties using state-of-the-art AI models to provide:
 
-- **🍎 Variety Classification**: Identifies 6 Indian apple varieties (Sharbati, Sunehari, Maharaji, Splendour, Himsona, Himkiran)
+- **🍎 Variety Classification**: Identifies 6 Indian apple varieties (Sharbati, Sunehari, Maharaji, Splendour, Himsona)
 - **💚 Health Assessment**: Detects healthy vs rotten apples with explainable AI
 - **🧴 Surface Analysis**: Classifies waxed vs unwaxed surfaces using hybrid CNN + texture features
 - **⏳ Shelf Life Prediction**: Estimates remaining shelf life based on variety, health, and surface
@@ -126,7 +126,7 @@ The application will open in your browser at `http://127.0.0.1:7860`
 
 ### 2. Variety Classifier (EfficientNet-B3)
 - **Purpose**: Identifies specific Indian apple variety
-- **Classes**: 6 varieties (Sharbati, Sunehari, Maharaji, Splendour, Himsona, Himkiran)
+- **Classes**: 5 varieties (Sharbati, Sunehari, Maharaji, Splendour, Himsona)
 - **Architecture**: Fine-tuned EfficientNet-B3
 - **Expected Accuracy**: >90% on test set
 
@@ -156,7 +156,7 @@ The application will open in your browser at `http://127.0.0.1:7860`
 | Metric | Target | Notes |
 |--------|--------|-------|
 | Apple Detection | >95% | YOLOv8 with confidence threshold |
-| Variety Classification | >90% | 6-class classification |
+| Variety Classification | >90% | 5-class classification |
 | Health Assessment | >95% | Binary classification (Healthy/Rotten) |
 | Surface Analysis | >88% | Binary classification (Waxed/Unwaxed) |
 | Shelf Life MAE | <2 days | Mean Absolute Error |
